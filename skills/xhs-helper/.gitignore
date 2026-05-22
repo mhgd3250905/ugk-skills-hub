@@ -1,0 +1,14 @@
+# 运行时产物（搜索/发布记录）
+search-history.json
+published-notes.json
+*-检索报告.md
+xhs-search-*.json
+xhs-search-*.markdown
+xhs-enriched-*.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# 备份
+backups/
