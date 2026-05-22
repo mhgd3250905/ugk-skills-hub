@@ -1,0 +1,42 @@
+[
+  {
+    "id": "search-repo-basic",
+    "input": "/github:search repos react table",
+    "expected_output_contains": ["GitHub 仓库搜索结果", "react table", "github.com"]
+  },
+  {
+    "id": "search-repo-with-lang",
+    "input": "帮我查一下 GitHub 上用 Python 写的异步 web 框架",
+    "expected_output_contains": ["GitHub 仓库搜索结果", "Python", "github.com"]
+  },
+  {
+    "id": "repo-info-full",
+    "input": "/github:info vercel/next.js --all",
+    "expected_output_contains": ["GitHub 仓库信息", "vercel/next.js", "Stars", "Language"]
+  },
+  {
+    "id": "repo-info-readme",
+    "input": "查一下 react 仓库的 README",
+    "expected_output_contains": ["GitHub 仓库信息", "react", "README 摘要"]
+  },
+  {
+    "id": "search-issues-open",
+    "input": "看看 react 仓库关于 hooks 的 open issue",
+    "expected_output_contains": ["GitHub Issue / PR 搜索结果", "Issue", "Open"]
+  },
+  {
+    "id": "trending-weekly",
+    "input": "/github:trending --lang typescript --since weekly",
+    "expected_output_contains": ["GitHub Trending", "TypeScript", "⭐"]
+  },
+  {
+    "id": "user-info",
+    "input": "查一下 torvalds 的 GitHub 信息",
+    "expected_output_contains": ["GitHub 用户信息", "torvalds", "公开仓库"]
+  },
+  {
+    "id": "search-code-javascript",
+    "input": "GitHub 上搜一下 useEffect 的 JavaScript 代码",
+    "expected_output_contains": ["GitHub 代码搜索结果", "useEffect"]
+  }
+]

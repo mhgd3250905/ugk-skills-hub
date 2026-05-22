@@ -1,0 +1,12 @@
+# GitHub CLI 二进制（太大，用 setup_gh.sh 自动下载）
+**/bin/gh
+
+# Python
+**/__pycache__/
+**/*.pyc
+
+# Node
+**/node_modules/
+
+# OS
+.DS_Store
