@@ -7,6 +7,10 @@
 ```
 skills/
 ├── github-helper/     ← GitHub 综合技能（检索 + 管理）
+├── medtrum-pcm/       ← Medtrum 多平台舆情监控（LinkedIn/TikTok/Instagram/X/Reddit）
+├── ptt-data/          ← 台湾 PTT 批踢踢数据查询
+├── reddit-data/       ← Reddit 帖子、评论、子版块数据
+├── send-email/        ← 邮件发送（SMTP）
 └── ...                ← 更多技能陆续迁入
 ```
 
